@@ -3,6 +3,22 @@
     background-color: #37cbfa;
 }
 
+.ui-menu-color-home {
+    background-color: #fa9837;
+}
+
+.ui-menu-color-resume {
+    background-color: #57a3ba;
+}
+
+.ui-menu-color-contact {
+    background-color: #a5805b;
+}
+
+.ui-menu-color-download {
+    background-color: #58727a;
+}
+
 /* heading */
 header {
     margin: 0;
@@ -13,6 +29,7 @@ header {
     font-size: 50px;
     margin-top: 10px;
     text-align: center;
+    padding: 2px;
 }
 
 .title {
@@ -20,16 +37,80 @@ header {
     font-size: 30px;
     margin-bottom: 15px;
     text-align: center;
+    padding: 3px;
 }
 
 .logo {
-    background: url("../images/IMG_20230929_125117_938.jpg");
+    background: url("../images/IMG_20240304_154156_165.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 200px;
+    min-height: 250px;
     transition: .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-family: "Anta", sans-serif;
+    font-size: 16px;
+    padding: 1em;
+}
+
+.menuitem {
+    height: 160px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+    height: 140px;
+}
+
+#home {
+    background-image: url("../images/icons8-home-50.png");
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 30px;
+}
+
+#resume {
+    background-image: url("../images/icons8-graduation-cap-50.png");
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 30px;
+}
+
+#contact {
+    background-image: url("../images/icons8-comment-50.png");
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 30px;
+}
+
+#download {
+    background-image: url("../images/icons8-download-50.png");
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 30px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
