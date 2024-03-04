@@ -1,0 +1,35 @@
+/* colors */
+.bg-color-name-title {
+    background-color: #37cbfa;
+}
+
+/* heading */
+header {
+    margin: 0;
+}
+
+.name {
+    font-family: "Anta",sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.title {
+    font-family: "Anta", sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.logo {
+    background: url("../images/IMG_20230929_125117_938.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    transition: .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
