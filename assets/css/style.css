@@ -32,6 +32,10 @@ h1,h2,h3,h4 {
     font-family: "Anta", sans-serif;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 /* heading */
 header {
     margin: 0;
@@ -134,13 +138,54 @@ header {
 /* hover.css */
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height:140px
+    height:120px
 }
 
 /* footer */
 footer {
     background-color: #97c4d2;
     color: #faebd7;
-    min-height: 120px;
+    min-height: 100px;
     margin: 0;
 }
+
+.cv-pdf i {
+    font-size: 20px;
+    color: #faebd7;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e50000;
+
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    padding: 18px 4px;
+    font-size: 25px;
+    line-height: 7px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #e50000;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+
