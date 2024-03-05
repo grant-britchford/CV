@@ -19,6 +19,19 @@
     background-color: #58727a;
 }
 
+/* special padding/margin/text */
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Anta", sans-serif;
+}
+
 /* heading */
 header {
     margin: 0;
@@ -124,3 +137,10 @@ header {
     height:140px
 }
 
+/* footer */
+footer {
+    background-color: #97c4d2;
+    color: #faebd7;
+    min-height: 120px;
+    margin: 0;
+}
