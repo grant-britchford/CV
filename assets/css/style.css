@@ -102,57 +102,37 @@ header {
 
 #nav li {
     font-family: "Anta", sans-serif;
-    font-size: 16px;
-    padding: 1em;
+    font-size: 12px;
+    padding: 0;
 }
 
 .menuitem {
-    height: 160px;
+    height: 120px;
+    text-align: center;
+    margin: 0;
 }
 
 .menuitem a {
     width: 100%;
     text-decoration: none;
     color: #000000;
-    height: 140px;
+    height: 120px;
 }
 
-#home {
-    background-image: url("../images/icons8-home-50.png");
-    background-repeat: no-repeat;
+.menuitem a i {
+    padding-top: 20px;
     display: block;
-    font-size: 30px;
-}
-
-#resume {
-    background-image: url("../images/icons8-graduation-cap-50.png");
-    background-repeat: no-repeat;
-    display: block;
-    font-size: 30px;
-}
-
-#contact {
-    background-image: url("../images/icons8-comment-50.png");
-    background-repeat: no-repeat;
-    display: block;
-    font-size: 30px;
-}
-
-#download {
-    background-image: url("../images/icons8-download-50.png");
-    background-repeat: no-repeat;
-    display: block;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 30px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 25px;
-    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 /* hover.css */
@@ -216,4 +196,38 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 15px;
+}
+
+/* personal info */
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 20%;
+    padding-top: 2px;
+    margin-right: 16px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 600;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 70%;
 }
